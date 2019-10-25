@@ -22,5 +22,5 @@ deploy:
   # Prevent Travis from deleting your built site so it can be uploaded.
   skip_cleanup: true
   # Path to a directory containing your built site.
-  local_dir: website/build
+  local_dir: build
   cache_control: "max-age=21600"
