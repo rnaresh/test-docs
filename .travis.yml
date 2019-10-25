@@ -7,7 +7,7 @@ cache:
     - node_modules
 before_script: cd website
 script:
-  - npm build
+  - npm run build
 branches:
     - master
 deploy:
