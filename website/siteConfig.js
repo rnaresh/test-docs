@@ -20,7 +20,10 @@ const users = [
   },
 ];
 
+require('dotenv').config();
+
 console.log("---", process.env.TEST)
+console.log(">>>", process.env.SECRET)
 
 const siteConfig = {
   title: 'Test Site', // Title for your website.
