@@ -20,6 +20,8 @@ const users = [
   },
 ];
 
+console.log("---", process.env.TEST)
+
 const siteConfig = {
   title: 'Test Site', // Title for your website.
   tagline: 'A website for testing',
